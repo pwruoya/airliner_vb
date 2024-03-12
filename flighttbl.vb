@@ -37,7 +37,7 @@ Public Class flighttbl
     Private Sub flighttbl_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Try
             MySqlConnection.Open()
-            MessageBox.Show("successful connected")
+            ' MessageBox.Show("successful connected")
         Catch ex As Exception
             MessageBox.Show(ex.Message)
         End Try

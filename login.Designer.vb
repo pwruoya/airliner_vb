@@ -23,13 +23,13 @@ Partial Class login
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Panel1 = New Panel()
+        Label5 = New Label()
+        Label4 = New Label()
         Label1 = New Label()
         Label2 = New Label()
         Label3 = New Label()
         Button1 = New Button()
         Button2 = New Button()
-        Label4 = New Label()
-        Label5 = New Label()
         TextBox1 = New TextBox()
         TextBox2 = New TextBox()
         Label6 = New Label()
@@ -38,6 +38,7 @@ Partial Class login
         ' 
         ' Panel1
         ' 
+        Panel1.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
         Panel1.BackColor = SystemColors.HotTrack
         Panel1.Controls.Add(Label5)
         Panel1.Controls.Add(Label4)
@@ -45,74 +46,6 @@ Partial Class login
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(284, 388)
         Panel1.TabIndex = 0
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.Font = New Font("Century Gothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label1.ForeColor = Color.Red
-        Label1.Location = New Point(311, 20)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(165, 25)
-        Label1.TabIndex = 2
-        Label1.Text = "ETIHAD AIRLINE"
-        ' 
-        ' Label2
-        ' 
-        Label2.AutoSize = True
-        Label2.Font = New Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label2.ForeColor = Color.Red
-        Label2.Location = New Point(287, 97)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(34, 19)
-        Label2.TabIndex = 3
-        Label2.Text = "UID"
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.Font = New Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label3.ForeColor = Color.Red
-        Label3.Location = New Point(287, 151)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(80, 19)
-        Label3.TabIndex = 4
-        Label3.Text = "Password"
-        ' 
-        ' Button1
-        ' 
-        Button1.BackColor = SystemColors.Highlight
-        Button1.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button1.ForeColor = Color.Red
-        Button1.Location = New Point(287, 264)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(104, 42)
-        Button1.TabIndex = 5
-        Button1.Text = "Login"
-        Button1.UseVisualStyleBackColor = False
-        ' 
-        ' Button2
-        ' 
-        Button2.BackColor = SystemColors.Highlight
-        Button2.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button2.ForeColor = Color.Red
-        Button2.Location = New Point(426, 264)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(104, 42)
-        Button2.TabIndex = 6
-        Button2.Text = "Reset"
-        Button2.UseVisualStyleBackColor = False
-        ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Century Gothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label4.ForeColor = Color.White
-        Label4.Location = New Point(40, 92)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(165, 25)
-        Label4.TabIndex = 3
-        Label4.Text = "ETIHAD AIRLINE"
         ' 
         ' Label5
         ' 
@@ -125,8 +58,82 @@ Partial Class login
         Label5.TabIndex = 4
         Label5.Text = "The Sky is Not The Limit"
         ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Font = New Font("Century Gothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label4.ForeColor = Color.White
+        Label4.Location = New Point(40, 92)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(165, 25)
+        Label4.TabIndex = 3
+        Label4.Text = "ETIHAD AIRLINE"
+        ' 
+        ' Label1
+        ' 
+        Label1.Anchor = AnchorStyles.Top
+        Label1.AutoSize = True
+        Label1.Font = New Font("Century Gothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.ForeColor = Color.Red
+        Label1.Location = New Point(311, 20)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(165, 25)
+        Label1.TabIndex = 2
+        Label1.Text = "ETIHAD AIRLINE"
+        ' 
+        ' Label2
+        ' 
+        Label2.Anchor = AnchorStyles.Top
+        Label2.AutoSize = True
+        Label2.Font = New Font("Century Gothic", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label2.ForeColor = Color.Red
+        Label2.Location = New Point(287, 97)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(34, 19)
+        Label2.TabIndex = 3
+        Label2.Text = "UID"
+        ' 
+        ' Label3
+        ' 
+        Label3.Anchor = AnchorStyles.Top
+        Label3.AutoSize = True
+        Label3.Font = New Font("Century Gothic", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.ForeColor = Color.Red
+        Label3.Location = New Point(287, 151)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(80, 19)
+        Label3.TabIndex = 4
+        Label3.Text = "Password"
+        ' 
+        ' Button1
+        ' 
+        Button1.Anchor = AnchorStyles.Bottom Or AnchorStyles.Right
+        Button1.BackColor = SystemColors.Highlight
+        Button1.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button1.ForeColor = Color.Red
+        Button1.Location = New Point(287, 264)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(104, 42)
+        Button1.TabIndex = 5
+        Button1.Text = "Login"
+        Button1.UseVisualStyleBackColor = False
+        ' 
+        ' Button2
+        ' 
+        Button2.Anchor = AnchorStyles.Bottom Or AnchorStyles.Right
+        Button2.BackColor = SystemColors.Highlight
+        Button2.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button2.ForeColor = Color.Red
+        Button2.Location = New Point(426, 264)
+        Button2.Name = "Button2"
+        Button2.Size = New Size(104, 42)
+        Button2.TabIndex = 6
+        Button2.Text = "Reset"
+        Button2.UseVisualStyleBackColor = False
+        ' 
         ' TextBox1
         ' 
+        TextBox1.Anchor = AnchorStyles.Top
         TextBox1.Location = New Point(379, 99)
         TextBox1.Name = "TextBox1"
         TextBox1.Size = New Size(100, 23)
@@ -134,6 +141,7 @@ Partial Class login
         ' 
         ' TextBox2
         ' 
+        TextBox2.Anchor = AnchorStyles.Top
         TextBox2.BackColor = Color.SaddleBrown
         TextBox2.Location = New Point(383, 153)
         TextBox2.Name = "TextBox2"
@@ -142,6 +150,7 @@ Partial Class login
         ' 
         ' Label6
         ' 
+        Label6.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label6.AutoSize = True
         Label6.Font = New Font("Century Gothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.Red

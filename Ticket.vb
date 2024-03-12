@@ -21,11 +21,14 @@ Public Class Ticket
     Private Sub Ticket_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Try
             MySqlConnection.Open()
-            MessageBox.Show("successful connected")
+            '  MessageBox.Show("successful connected")
         Catch ex As Exception
             MessageBox.Show(ex.Message)
         End Try
+        WindowState = FormWindowState.Maximized
+
     End Sub
+
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         TextBox1.Text = " "
@@ -57,6 +60,10 @@ Public Class Ticket
     End Sub
 
     Private Sub ListView1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListView1.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class

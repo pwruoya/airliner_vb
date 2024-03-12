@@ -85,4 +85,12 @@ Public Class MDIParent1
 
     Private m_ChildFormNumber As Integer
 
+    Private Sub FileMenu_Click(sender As Object, e As EventArgs) Handles FileMenu.Click
+
+    End Sub
+
+    Private Sub MDIParent1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Ticket.MdiParent = Me
+        Ticket.Show()
+    End Sub
 End Class

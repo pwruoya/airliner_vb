@@ -119,6 +119,7 @@ Partial Class Ticket
         ' 
         ' ComboBox1
         ' 
+        ComboBox1.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         ComboBox1.Font = New Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         ComboBox1.FormattingEnabled = True
         ComboBox1.Items.AddRange(New Object() {"F001", "F002", "F003", "F004"})
@@ -129,6 +130,7 @@ Partial Class Ticket
         ' 
         ' Label4
         ' 
+        Label4.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label4.AutoSize = True
         Label4.Font = New Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label4.ForeColor = Color.Navy
@@ -140,6 +142,7 @@ Partial Class Ticket
         ' 
         ' TextBox4
         ' 
+        TextBox4.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         TextBox4.Location = New Point(554, 109)
         TextBox4.Name = "TextBox4"
         TextBox4.Size = New Size(161, 23)
@@ -154,6 +157,7 @@ Partial Class Ticket
         ' 
         ' Label7
         ' 
+        Label7.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label7.AutoSize = True
         Label7.Font = New Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label7.ForeColor = Color.Navy
@@ -183,6 +187,7 @@ Partial Class Ticket
         ' 
         ' Label5
         ' 
+        Label5.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label5.AutoSize = True
         Label5.Font = New Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = Color.Navy
@@ -205,6 +210,7 @@ Partial Class Ticket
         ' 
         ' TextBox6
         ' 
+        TextBox6.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         TextBox6.Location = New Point(554, 196)
         TextBox6.Name = "TextBox6"
         TextBox6.Size = New Size(161, 23)
@@ -212,6 +218,7 @@ Partial Class Ticket
         ' 
         ' Label11
         ' 
+        Label11.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label11.AutoSize = True
         Label11.Font = New Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label11.ForeColor = Color.Navy
@@ -235,6 +242,7 @@ Partial Class Ticket
         ' 
         ' Button1
         ' 
+        Button1.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Button1.BackColor = Color.Navy
         Button1.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold)
         Button1.ForeColor = Color.Transparent
@@ -247,6 +255,7 @@ Partial Class Ticket
         ' 
         ' ListView1
         ' 
+        ListView1.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         ListView1.Columns.AddRange(New ColumnHeader() {ColumnHeader1, ColumnHeader2, ColumnHeader3, ColumnHeader4, ColumnHeader5, ColumnHeader6, ColumnHeader7, ColumnHeader8})
         ListView1.GridLines = True
         ListView1.Location = New Point(42, 278)
@@ -294,6 +303,7 @@ Partial Class Ticket
         ' 
         ' ComboBox2
         ' 
+        ComboBox2.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         ComboBox2.FormattingEnabled = True
         ComboBox2.Items.AddRange(New Object() {"Kenyan", "American", "Ugandan", "British", "French"})
         ComboBox2.Location = New Point(554, 155)
@@ -312,6 +322,7 @@ Partial Class Ticket
         ' 
         ' Button3
         ' 
+        Button3.Anchor = AnchorStyles.Bottom Or AnchorStyles.Right
         Button3.BackColor = Color.Navy
         Button3.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold)
         Button3.ForeColor = Color.Transparent
