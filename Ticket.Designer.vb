@@ -22,6 +22,7 @@ Partial Class Ticket
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Ticket))
         Label10 = New Label()
         Label2 = New Label()
         Label1 = New Label()
@@ -90,7 +91,7 @@ Partial Class Ticket
         ' 
         ' TextBox5
         ' 
-        TextBox5.Location = New Point(208, 155)
+        TextBox5.Location = New Point(148, 156)
         TextBox5.Name = "TextBox5"
         TextBox5.Size = New Size(161, 23)
         TextBox5.TabIndex = 61
@@ -100,7 +101,7 @@ Partial Class Ticket
         Label9.AutoSize = True
         Label9.Font = New Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label9.ForeColor = Color.Navy
-        Label9.Location = New Point(89, 200)
+        Label9.Location = New Point(29, 201)
         Label9.Name = "Label9"
         Label9.Size = New Size(52, 19)
         Label9.TabIndex = 60
@@ -111,7 +112,7 @@ Partial Class Ticket
         Label8.AutoSize = True
         Label8.Font = New Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label8.ForeColor = Color.Navy
-        Label8.Location = New Point(89, 154)
+        Label8.Location = New Point(29, 155)
         Label8.Name = "Label8"
         Label8.Size = New Size(42, 19)
         Label8.TabIndex = 59
@@ -123,7 +124,7 @@ Partial Class Ticket
         ComboBox1.Font = New Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         ComboBox1.FormattingEnabled = True
         ComboBox1.Items.AddRange(New Object() {"F001", "F002", "F003", "F004"})
-        ComboBox1.Location = New Point(554, 68)
+        ComboBox1.Location = New Point(458, 67)
         ComboBox1.Name = "ComboBox1"
         ComboBox1.Size = New Size(161, 24)
         ComboBox1.TabIndex = 57
@@ -134,7 +135,7 @@ Partial Class Ticket
         Label4.AutoSize = True
         Label4.Font = New Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label4.ForeColor = Color.Navy
-        Label4.Location = New Point(390, 155)
+        Label4.Location = New Point(331, 154)
         Label4.Name = "Label4"
         Label4.Size = New Size(92, 19)
         Label4.TabIndex = 56
@@ -143,14 +144,14 @@ Partial Class Ticket
         ' TextBox4
         ' 
         TextBox4.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        TextBox4.Location = New Point(554, 109)
+        TextBox4.Location = New Point(458, 106)
         TextBox4.Name = "TextBox4"
         TextBox4.Size = New Size(161, 23)
         TextBox4.TabIndex = 55
         ' 
         ' TextBox3
         ' 
-        TextBox3.Location = New Point(208, 107)
+        TextBox3.Location = New Point(148, 106)
         TextBox3.Name = "TextBox3"
         TextBox3.Size = New Size(161, 23)
         TextBox3.TabIndex = 54
@@ -161,7 +162,7 @@ Partial Class Ticket
         Label7.AutoSize = True
         Label7.Font = New Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label7.ForeColor = Color.Navy
-        Label7.Location = New Point(390, 108)
+        Label7.Location = New Point(345, 110)
         Label7.Name = "Label7"
         Label7.Size = New Size(58, 19)
         Label7.TabIndex = 53
@@ -169,7 +170,7 @@ Partial Class Ticket
         ' 
         ' TextBox1
         ' 
-        TextBox1.Location = New Point(208, 67)
+        TextBox1.Location = New Point(148, 68)
         TextBox1.Name = "TextBox1"
         TextBox1.Size = New Size(161, 23)
         TextBox1.TabIndex = 51
@@ -179,7 +180,7 @@ Partial Class Ticket
         Label6.AutoSize = True
         Label6.Font = New Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.Navy
-        Label6.Location = New Point(89, 107)
+        Label6.Location = New Point(29, 108)
         Label6.Name = "Label6"
         Label6.Size = New Size(106, 19)
         Label6.TabIndex = 50
@@ -191,7 +192,7 @@ Partial Class Ticket
         Label5.AutoSize = True
         Label5.Font = New Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = Color.Navy
-        Label5.Location = New Point(390, 68)
+        Label5.Location = New Point(331, 72)
         Label5.Name = "Label5"
         Label5.Size = New Size(97, 19)
         Label5.TabIndex = 49
@@ -202,7 +203,7 @@ Partial Class Ticket
         Label3.AutoSize = True
         Label3.Font = New Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label3.ForeColor = Color.Navy
-        Label3.Location = New Point(89, 66)
+        Label3.Location = New Point(29, 67)
         Label3.Name = "Label3"
         Label3.Size = New Size(72, 19)
         Label3.TabIndex = 48
@@ -211,7 +212,7 @@ Partial Class Ticket
         ' TextBox6
         ' 
         TextBox6.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        TextBox6.Location = New Point(554, 196)
+        TextBox6.Location = New Point(413, 197)
         TextBox6.Name = "TextBox6"
         TextBox6.Size = New Size(161, 23)
         TextBox6.TabIndex = 63
@@ -222,7 +223,7 @@ Partial Class Ticket
         Label11.AutoSize = True
         Label11.Font = New Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label11.ForeColor = Color.Navy
-        Label11.Location = New Point(404, 200)
+        Label11.Location = New Point(331, 201)
         Label11.Name = "Label11"
         Label11.Size = New Size(71, 19)
         Label11.TabIndex = 62
@@ -233,7 +234,7 @@ Partial Class Ticket
         Button2.BackColor = Color.Navy
         Button2.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold)
         Button2.ForeColor = Color.Transparent
-        Button2.Location = New Point(250, 230)
+        Button2.Location = New Point(176, 232)
         Button2.Name = "Button2"
         Button2.Size = New Size(83, 40)
         Button2.TabIndex = 64
@@ -246,7 +247,7 @@ Partial Class Ticket
         Button1.BackColor = Color.Navy
         Button1.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold)
         Button1.ForeColor = Color.Transparent
-        Button1.Location = New Point(392, 230)
+        Button1.Location = New Point(307, 230)
         Button1.Name = "Button1"
         Button1.Size = New Size(83, 40)
         Button1.TabIndex = 65
@@ -258,9 +259,9 @@ Partial Class Ticket
         ListView1.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         ListView1.Columns.AddRange(New ColumnHeader() {ColumnHeader1, ColumnHeader2, ColumnHeader3, ColumnHeader4, ColumnHeader5, ColumnHeader6, ColumnHeader7, ColumnHeader8})
         ListView1.GridLines = True
-        ListView1.Location = New Point(42, 278)
+        ListView1.Location = New Point(2, 273)
         ListView1.Name = "ListView1"
-        ListView1.Size = New Size(645, 160)
+        ListView1.Size = New Size(585, 140)
         ListView1.TabIndex = 66
         ListView1.UseCompatibleStateImageBehavior = False
         ListView1.View = View.Details
@@ -286,7 +287,7 @@ Partial Class Ticket
         ' ColumnHeader5
         ' 
         ColumnHeader5.Text = "Age"
-        ColumnHeader5.Width = 100
+        ColumnHeader5.Width = 40
         ' 
         ' ColumnHeader6
         ' 
@@ -306,7 +307,7 @@ Partial Class Ticket
         ComboBox2.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         ComboBox2.FormattingEnabled = True
         ComboBox2.Items.AddRange(New Object() {"Kenyan", "American", "Ugandan", "British", "French"})
-        ComboBox2.Location = New Point(554, 155)
+        ComboBox2.Location = New Point(458, 155)
         ComboBox2.Name = "ComboBox2"
         ComboBox2.Size = New Size(161, 23)
         ComboBox2.TabIndex = 67
@@ -315,7 +316,7 @@ Partial Class Ticket
         ' 
         ComboBox3.FormattingEnabled = True
         ComboBox3.Items.AddRange(New Object() {"First Class -@2500", "Business Class-@1500", "Economy Class-@1000"})
-        ComboBox3.Location = New Point(208, 196)
+        ComboBox3.Location = New Point(148, 197)
         ComboBox3.Name = "ComboBox3"
         ComboBox3.Size = New Size(161, 23)
         ComboBox3.TabIndex = 68
@@ -326,9 +327,9 @@ Partial Class Ticket
         Button3.BackColor = Color.Navy
         Button3.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold)
         Button3.ForeColor = Color.Transparent
-        Button3.Location = New Point(693, 367)
+        Button3.Location = New Point(509, 406)
         Button3.Name = "Button3"
-        Button3.Size = New Size(95, 71)
+        Button3.Size = New Size(157, 44)
         Button3.TabIndex = 69
         Button3.Text = "Show Records"
         Button3.UseVisualStyleBackColor = False
@@ -337,7 +338,8 @@ Partial Class Ticket
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
+        ClientSize = New Size(715, 462)
         Controls.Add(Button3)
         Controls.Add(ComboBox3)
         Controls.Add(ComboBox2)

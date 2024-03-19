@@ -32,7 +32,6 @@ Partial Class flighttbl
         ComboBox2 = New ComboBox()
         Button2 = New Button()
         Button1 = New Button()
-        PictureBox1 = New PictureBox()
         Label7 = New Label()
         DateTimePicker1 = New DateTimePicker()
         Label10 = New Label()
@@ -43,7 +42,6 @@ Partial Class flighttbl
         ColumnHeader4 = New ColumnHeader()
         Button3 = New Button()
         ComboBox3 = New ComboBox()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Label1
@@ -126,7 +124,7 @@ Partial Class flighttbl
         Button2.BackColor = Color.Navy
         Button2.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button2.ForeColor = Color.Transparent
-        Button2.Location = New Point(111, 351)
+        Button2.Location = New Point(135, 314)
         Button2.Name = "Button2"
         Button2.Size = New Size(83, 40)
         Button2.TabIndex = 14
@@ -138,22 +136,12 @@ Partial Class flighttbl
         Button1.BackColor = Color.Navy
         Button1.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button1.ForeColor = Color.Transparent
-        Button1.Location = New Point(4, 351)
+        Button1.Location = New Point(12, 314)
         Button1.Name = "Button1"
         Button1.Size = New Size(101, 40)
         Button1.TabIndex = 13
         Button1.Text = "Record"
         Button1.UseVisualStyleBackColor = False
-        ' 
-        ' PictureBox1
-        ' 
-        PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(335, 26)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(462, 182)
-        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox1.TabIndex = 15
-        PictureBox1.TabStop = False
         ' 
         ' Label7
         ' 
@@ -189,9 +177,9 @@ Partial Class flighttbl
         ' 
         ListView1.Columns.AddRange(New ColumnHeader() {ColumnHeader1, ColumnHeader2, ColumnHeader3, ColumnHeader4})
         ListView1.GridLines = True
-        ListView1.Location = New Point(365, 214)
+        ListView1.Location = New Point(371, 43)
         ListView1.Name = "ListView1"
-        ListView1.Size = New Size(366, 176)
+        ListView1.Size = New Size(388, 176)
         ListView1.TabIndex = 38
         ListView1.UseCompatibleStateImageBehavior = False
         ListView1.View = View.Details
@@ -221,7 +209,7 @@ Partial Class flighttbl
         Button3.BackColor = Color.Navy
         Button3.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button3.ForeColor = Color.Transparent
-        Button3.Location = New Point(529, 395)
+        Button3.Location = New Point(557, 220)
         Button3.Name = "Button3"
         Button3.Size = New Size(202, 40)
         Button3.TabIndex = 39
@@ -242,6 +230,8 @@ Partial Class flighttbl
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
+        BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(760, 440)
         Controls.Add(ComboBox3)
         Controls.Add(Button3)
@@ -249,7 +239,6 @@ Partial Class flighttbl
         Controls.Add(Label10)
         Controls.Add(DateTimePicker1)
         Controls.Add(Label7)
-        Controls.Add(PictureBox1)
         Controls.Add(Button2)
         Controls.Add(Button1)
         Controls.Add(ComboBox2)
@@ -262,7 +251,6 @@ Partial Class flighttbl
         Name = "flighttbl"
         StartPosition = FormStartPosition.CenterScreen
         Text = "flighttbl"
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -276,7 +264,6 @@ Partial Class flighttbl
     Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label7 As Label
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents Label10 As Label

@@ -22,6 +22,7 @@ Partial Class addpassenger
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(addpassenger))
         Label7 = New Label()
         TextBox2 = New TextBox()
         TextBox1 = New TextBox()
@@ -245,9 +246,9 @@ Partial Class addpassenger
         ' 
         ListView1.Columns.AddRange(New ColumnHeader() {ColumnHeader1, ColumnHeader2, ColumnHeader3, ColumnHeader4, ColumnHeader5, ColumnHeader6, ColumnHeader7})
         ListView1.GridLines = True
-        ListView1.Location = New Point(361, 101)
+        ListView1.Location = New Point(387, 247)
         ListView1.Name = "ListView1"
-        ListView1.Size = New Size(417, 199)
+        ListView1.Size = New Size(417, 161)
         ListView1.TabIndex = 38
         ListView1.UseCompatibleStateImageBehavior = False
         ListView1.View = View.Details
@@ -288,7 +289,7 @@ Partial Class addpassenger
         Button3.BackColor = Color.Navy
         Button3.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold)
         Button3.ForeColor = Color.Transparent
-        Button3.Location = New Point(590, 309)
+        Button3.Location = New Point(620, 398)
         Button3.Name = "Button3"
         Button3.Size = New Size(171, 40)
         Button3.TabIndex = 39
@@ -299,6 +300,8 @@ Partial Class addpassenger
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
+        BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(803, 450)
         Controls.Add(Button3)
         Controls.Add(ListView1)
