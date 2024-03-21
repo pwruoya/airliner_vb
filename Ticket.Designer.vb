@@ -327,7 +327,7 @@ Partial Class Ticket
         Button3.BackColor = Color.Navy
         Button3.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold)
         Button3.ForeColor = Color.Transparent
-        Button3.Location = New Point(509, 406)
+        Button3.Location = New Point(546, 419)
         Button3.Name = "Button3"
         Button3.Size = New Size(157, 44)
         Button3.TabIndex = 69
